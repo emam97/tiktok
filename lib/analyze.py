@@ -59,8 +59,8 @@ with open(input_file, 'r') as f:
                     break
 
 tot_string = "You've interacted with " + str(total_interactions) + " people on Hinge \n"
-rej_string = "You've rejected " + str(rejected) + " people (ouch) \nYou match with " + str(matches/total_interactions * 100) + "% of profiles you see on Hinge.\n"
-tot_ghost_string = "You've ghosted at least " + str(u_ghosted + they_ghosted) + ", or at least " + str((u_ghosted+they_ghosted)/matches * 100) + "% of all the people you match with\n"
+rej_string = "You've rejected " + str(rejected) + " people (ouch) \nYou match with " + str(round(matches/total_interactions * 100, 2)) + "% of profiles you see on Hinge.\n"
+tot_ghost_string = "You've ghosted at least " + str(u_ghosted + they_ghosted) + ", or at least " + str(round((u_ghosted+they_ghosted)/matches * 100, 2)) + "% of all the people you match with\n"
 u_ghost_string = "Total you've dropped the ball: " + str(u_ghosted) + " (you sent a like and they matched, no chatting) \n"
 they_ghost_string = "Total they've dropped the ball " + str(they_ghosted) + " (they sent a like and you matched, no chatting) \n"
 they_dunk_string = "Total shots they've shot and scored: " + str(they_dunk) + " (they sent a like and you matched) \n"
@@ -68,7 +68,7 @@ u_dunk_string = "Total shots you've shot and scored: " + str(u_dunk) + " (you se
 tot_likes = "Total shots you've shot: " + str(likes) + " (you sent a like)\n"
 tot_matches = "Total slam dunks: " + str(matches) + " (you've matched with someone or they've matched with you) \n"
 tot_chats = "Total people you've blessed with your time: " + str(chats) + " (you sent a message at least once) \n"
-tot_nubers = "You have sent a phone number to " + str(numbers_sent) + " people on Hinge \n"
+tot_nubers = "You've sent a phone number to " + str(numbers_sent) + " people on Hinge, or " + str(round((numbers_sent/matches) * 100, 2)) + "% of all the people you match with.\n"
 
 analysis = tot_string + tot_likes + tot_matches + tot_chats
 analysis += "\n------------- \n\n\n"
