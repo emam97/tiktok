@@ -25,6 +25,16 @@ If you do not have a background in programming and would like to plug your data 
 
 If you're interested in running this python script yourself, continue reading.
 
+### DISCLAIMER
+
+Data is a funny thing, it's fun to see (and as a result, feel seen), and can also be easily misinterpreted. There's a lot of nuances into why people send likes, why people match, and why people may reject (or just never respond) to a like on Hinge. 
+Everyone has their own preferences.
+Everyone's at a different point in their lives.
+It's difficult (and impossible!) to understand why other people do the things they do without asking them directly.
+Just a few things to keep in mind :)
+
+ok you may proceed.
+
 ### Prerequisites
 
 Before running, make sure you've got [Python](https://www.python.org/downloads/) set up in your development environment.
