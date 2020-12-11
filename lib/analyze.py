@@ -73,7 +73,7 @@ tot_numbers = "You've sent a phone number to " + str(numbers_sent) + " people on
 analysis = tot_string + tot_likes + tot_matches + tot_chats
 analysis += "\n------------- \n\n\n"
 analysis += "Fun Stuff ~ \n\n"
-analysis += rej_string + tot_ghost_string + u_ghost_string + they_ghost_string + they_dunk_string + u_dunk_string + tot_nubers
+analysis += rej_string + tot_ghost_string + u_ghost_string + they_ghost_string + they_dunk_string + u_dunk_string + tot_numbers
 
 
 print("Analysis complete!")
