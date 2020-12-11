@@ -68,7 +68,7 @@ u_dunk_string = "Total shots you've shot and scored: " + str(u_dunk) + " (you se
 tot_likes = "Total shots you've shot: " + str(likes) + " (you sent a like)\n"
 tot_matches = "Total slam dunks: " + str(matches) + " (you've matched with someone or they've matched with you) \n"
 tot_chats = "Total people you've blessed with your time: " + str(chats) + " (you sent a message at least once) \n"
-tot_nubers = "You've sent a phone number to " + str(numbers_sent) + " people on Hinge, or " + str(round((numbers_sent/matches) * 100, 2)) + "% of all the people you match with.\n"
+tot_numbers = "You've sent a phone number to " + str(numbers_sent) + " people on Hinge, or " + str(round((numbers_sent/matches) * 100, 2)) + "% of all the people you match with.\n"
 
 analysis = tot_string + tot_likes + tot_matches + tot_chats
 analysis += "\n------------- \n\n\n"
