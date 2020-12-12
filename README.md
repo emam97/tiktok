@@ -21,7 +21,7 @@ So you wanna learn more about about your Hinge habits? Look no further!
 
 To request your data, follow the steps [here on Hinge's site](https://hingeapp.zendesk.com/hc/en-us/articles/360011235813-How-do-I-request-a-copy-of-my-personal-data-)
 
-If you do not have a background in programming and would like to plug your data and go, [*a website for that is coming soon!*](https://emam97.github.io/)
+If you do not have a background in programming and would like to plug your data and go, [*a website for that is coming soon!*](https://hinge.emsanity.com/)
 
 If you're interested in running this python script yourself, continue reading.
 
